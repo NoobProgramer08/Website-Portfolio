@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.upper {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+.navs-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+}
+.logo {
+  margin-left: 10%;
+}
+.navs-icon .logo img {
+  height: 39px;
+}
+.navigations {
+  display: flex;
+  font-family: Montserrat;
+  width: 40%;
+  margin-left: 51%;
+}
+
+.navigations ul {
+  font-size: 13px;
+  gap: 20px;
+  display: flex;
+  list-style-type: none;
+  color: white;
+}
+.navigations ul .header-links {
+  padding: 10px;
+  border-radius: 15px;
+}
+.navigations li:hover {
+  color: black;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+.intro-icons {
+  display: flex;
+  font-family: JetBrains Mono;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10%;
+}
+
+.icons ul {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+}
+.icons .icon-back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  background-color: grey;
+  border-radius: 10px;
+}
+.icons img {
+  height: 30px;
+}
+.profile-holder {
+  display: flex;
+  justify-content: space-between;
+}
+.profile img {
+  height: 450px;
+}
+.profile {
+  display: flex;
+  margin-right: 18%;
+}
