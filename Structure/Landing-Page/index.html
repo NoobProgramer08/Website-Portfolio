@@ -5,30 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap"
-      rel="stylesheet"
-    />
   </head>
   <body>
     <div class="upper">
       <div class="navs-icon">
         <div class="logo">
-          <img src="../assets/profile-icon.png" alt="programmer-icon" />
+          <h3 id="windyl">Windyl.net</h3>
         </div>
         <nav class="navigations">
           <ul>
             <li class="header-links">About me</li>
             <li class="header-links">Skills</li>
-            <li class="header-links">Portfolio</li>
+            <li class="header-links">Projects</li>
             <li class="header-links">Contact me</li>
           </ul>
         </nav>
@@ -40,30 +28,38 @@
               <div class="greet">
                 <h3>Hi, I am</h3>
               </div>
-              <div class="name">
-                <h1>Windyl Monton</h1>
-                <p>An Aspiring Frontend Developer</p>
-              </div>
+              <h1 id="myname">Windyl P. Monton</h1>
+              <p>An Aspiring Frontend Developer</p>
             </div>
-            <div class="icons">
-              <ul>
-                <li class="icon-back">
-                  <img src="../assets/gmail-icon.png" alt="gmail-icon" />
-                </li>
-                <li class="icon-back">
-                  <img src="../assets/github-icon.png" alt="" />
-                </li>
-                <li class="icon-back">
-                  <img src="../assets/linkedin-icon.png" alt="" />
-                </li>
-              </ul>
+            <div class="buttons">
+              <button>
+                <a href="https://www.facebook.com/windyl.monton.3"
+                  >Get in touch</a
+                >
+              </button>
             </div>
           </div>
           <div class="profile">
-            <img src="../assets/PROFILE-removebg-preview.png" />
+            <img src="../assets/images/profile.png" alt="" />
           </div>
         </div>
       </main>
     </div>
+    <div class="middle">
+      <div class="content-middle">
+        <div class="about-me"><h2>About me</h2></div>
+        <div class="statement">
+          <p>
+            As an IT student with a passion for web development, I am dedicated
+            to building responsive, user-friendly websites that merge innovative
+            design with functionality. With every project, I strive to deepen my
+            understanding of front-end and back-end technologies, aiming to
+            create seamless, engaging online experiences.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="../../Jquery/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
