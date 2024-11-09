@@ -12,9 +12,8 @@ body {
   background-size: cover;
   display: flex;
   flex-direction: column;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
+
 .navs-icon {
   display: flex;
   padding-top: 15px;
@@ -342,12 +341,15 @@ body {
 .currently-learning {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 20px;
 }
 .learning {
   font-family: JetBrains Mono;
   color: white;
   display: flex;
+
   gap: 50px;
 }
 .learning img {
@@ -425,5 +427,4 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid rgba(255, 255, 255, 0.5);
 }
